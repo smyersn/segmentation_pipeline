@@ -1,0 +1,20 @@
+2024-03-14 16:22:18,517 [INFO] WRITING LOG OUTPUT TO /nas/longleaf/home/smyersn/.cellpose/run.log
+2024-03-14 16:22:18,517 [INFO] 
+cellpose version: 	2.3.2 
+platform:       	linux 
+python version: 	3.8.5 
+torch version:  	2.2.0
+2024-03-14 16:22:18,830 [INFO] ** TORCH CUDA version installed and working. **
+2024-03-14 16:22:18,830 [INFO] >>>> using GPU
+Traceback (most recent call last):
+  File "/nas/longleaf/home/smyersn/miniconda3/envs/segmentation/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/nas/longleaf/home/smyersn/miniconda3/envs/segmentation/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/nas/longleaf/home/smyersn/miniconda3/envs/segmentation/lib/python3.8/site-packages/cellpose/__main__.py", line 276, in <module>
+    main()
+  File "/nas/longleaf/home/smyersn/miniconda3/envs/segmentation/lib/python3.8/site-packages/cellpose/__main__.py", line 107, in main
+    image_names = io.get_image_files(args.dir, 
+  File "/nas/longleaf/home/smyersn/miniconda3/envs/segmentation/lib/python3.8/site-packages/cellpose/io.py", line 186, in get_image_files
+    raise ValueError('ERROR: no files in --dir folder ')
+ValueError: ERROR: no files in --dir folder 
